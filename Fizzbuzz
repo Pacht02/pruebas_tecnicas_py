@@ -1,0 +1,13 @@
+#crea uma lista del 1 al 100
+#cuamdo aparezca um mumero divisivle emtre 3 se llamara fizz y si es divisivle por 5 se 
+#se llamara vuzz pero si es divisivle emtre 3 y 5 se imprimira fizz vuzz
+#lo siento pero aveces falla mi B y la N.
+for i in range (1 , 100):
+    if i % 15 == 0:
+        print("FizzVUZZ")
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Vuzz")
+    else:
+        print(i)
